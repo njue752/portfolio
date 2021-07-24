@@ -10,52 +10,100 @@ Licence:MIT//
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Martin Njue:contacts </title>
+    <link rel="stylesheet" href="./css/contacts.css" />
+    <script src="./css/fontawesome.js" crossorigin="anonymous"></script>
+    <title>Martin Njue:contacts</title>
   </head>
   <body>
-  <!--Navigation bar section-->
-  <nav>
-    <a href="index.html">Homepage</a>
-    <a href="./projects.html">see my projects</a>
-    <a href="./services.html">check our services</a>
-    <a href="./about.html">check out my page</a>
-    <a href="./blog.html">check out my blog</a>
-    <a href="./contacts.html">check out my contacts</a>
-  </nav>
-  <hr />
-  <!--Jumbotron section-->
-  <h1>Contact Me</h1>
-  <p>If you would like to chat about a project,please fill in the form below and i will get back within 1-2 days</p>
-  <!--Main section-->
-  <form>
-    <a href="images/Hota.jpg"><img src="images/Hota.jpg" width=50 height=50></a><br><br>
-    Email*<input type="text" name="mail"  placeholder="Your email"/><br><br>
-    Name*<input type="text" name="Name" placeholder="Your name"/><br><br>
-    Tel<input type="tel" name="code" placeholder="+254"><input type="tel" name="Phone" placeholder="07********"/><br><br>
-    Preffered means<br>
-    <input type="radio" name="preffered means"/>Tel.
-    <input type="radio" name="preffered means"/>E-mail<br><br>
-    Product*<br>
-    <select name="Choose product">
-      <option>Web application</option>
-      <option>Desktop application</option>
-      <option>Mobile application</option>
-      </select><br><br>
-      Message*<textarea cols=20 rows rows=20 name="enter message"></textarea><br><br>
-      <input type="checkbox" name="subscribe"/>Subscribe to news and offers<br><br>
-      <input type="submit" name="send message" value="Send message"/>
+    <!--Navigation bar section-->
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="./projects.html" class="nav-link">
+        <i class="fas fa-tasks"></i>projects</a
+      >&nbsp;&nbsp;
+      <a href="./services.html" class="nav-link"
+        ><i class="fas fa-cogs"></i>services</a
+      >&nbsp;&nbsp;
+      <a href="./about.html" class="nav-link"
+        ><i class="fas fa-address-card"></i>about</a
+      >&nbsp;&nbsp;
+      <a href="./blog.html" class="nav-link"><i class="fas fa-blog"></i>blog</a
+      >&nbsp;&nbsp;
+      <a href="./contacts.html" class="nav-link"
+        ><i class="fas fa-envelope-open-text"></i>contacts</a
+      >&nbsp;&nbsp;
+      <a
+        href="https://drive.google.com/file/d/1NC2_lO8zs8xa5isOtMEc1AaZTXuUXrzt/view?usp=sharing"
+        ><i class="fas fa-file"></i>resume</a
+      >
+    </nav>
+    <hr />
+    <!--Jumbotron section-->
+    <h1>Contact Me</h1>
+    <p>
+      If you would like to chat about a project,please fill in the form below
+      and i will get back within 1-2 days
+    </p>
+    <!--Main section-->
+    <form>
+      <a href="images/Hota.jpg"
+        ><img src="images/Hota.jpg" width="50" height="50" /></a
+      ><br /><br />
+      Email*<input
+        type="text"
+        name="mail"
+        placeholder="Your email"
+      /><br /><br />
+      Name*<input type="text" name="Name" placeholder="Your name" /><br /><br />
+      Tel<input type="tel" name="code" placeholder="+254" /><input
+        type="tel"
+        name="Phone"
+        placeholder="07********"
+      /><br /><br />
+      Preffered means<br />
+      <input type="radio" name="preferred means" />Tel.
+      <input type="radio" name="preferred means" />E-mail<br /><br />
+      Product*<br />
+      <select name="Choose product">
+        <option>Web application</option>
+        <option>Desktop application</option>
+        <option>Mobile application</option></select
+      ><br /><br />
+      Message*<textarea cols="20" rows rows="20" name="enter message"></textarea
+      ><br /><br />
+      <input type="checkbox" name="subscribe" />Subscribe to news and offers<br /><br />
+      <input type="submit" name="send message" value="Send message" />
     </form>
-    <hr/>    
-  <!--Footer section-->
-  <footer></footer>
-  <ul>
-  <li><a href="https://github.com/njue752"> Visit my Github account</a></li>
-  <li><a href="https://www.linkedin.com/in/martin-njue-8a1102215/"> Visit my Linkedin account></a></li>
-  <li><a href="https://twitter.com/Martyn_Njue">Visit my Twitter account</a></li>
-  <li><a href="https://www.instagram.com/martingatu9/?hl=en">Visit my Instagram account</a></li>
-  </ul>
-  </footer>
-  <hr/>
-  &copy;2021.All rights reserved.&trade;Martin Njue
-</body>
+    <hr />
+    <!--Footer section-->
+    <footer>
+      <ul>
+        <li>
+          <a href="https://github.com/njue752"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/martin-njue-8a1102215/"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Martyn_Njue"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/martingatu9/?hl=en"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+      <p>
+        &copy 2021 All rights reserved <a href="Martin Njue">Martin Njue</a>
+      </p>
+    </footer>
+    <hr />
+    &copy;2021.All rights reserved.&trade;Martin Njue
+  </body>
 </html>
