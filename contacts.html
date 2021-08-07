@@ -45,36 +45,70 @@ Licence:MIT//
       and i will get back within 1-2 days
     </p>
     <!--Main section-->
-    <form>
-      <a href="images/Hota.jpg"
-        ><img src="images/Hota.jpg" width="50" height="50" /></a
-      ><br /><br />
-      Email*<input
-        type="text"
-        name="mail"
-        placeholder="Your email"
-      /><br /><br />
-      Name*<input type="text" name="Name" placeholder="Your name" /><br /><br />
-      Tel<input type="tel" name="code" placeholder="+254" /><input
-        type="tel"
-        name="Phone"
-        placeholder="07********"
-      /><br /><br />
-      Preffered means<br />
-      <input type="radio" name="preferred means" />Tel.
-      <input type="radio" name="preferred means" />E-mail<br /><br />
-      Product*<br />
-      <select name="Choose product">
-        <option>Web application</option>
-        <option>Desktop application</option>
-        <option>Mobile application</option></select
-      ><br /><br />
-      Message*<textarea cols="20" rows rows="20" name="enter message"></textarea
-      ><br /><br />
-      <input type="checkbox" name="subscribe" />Subscribe to news and offers<br /><br />
-      <input type="submit" name="send message" value="Send message" />
-    </form>
-    <hr />
+    <main>
+      <div class="box box_shadow">
+      <img
+          src="./images/self.png"
+          alt="Selfie"
+          width="100"
+          height="100"
+          class="shape"
+        />
+      <div class="card-header text-center"></div>
+      <div class="card-body">
+      <form action="">
+      <p>
+      Email*
+      <br/>
+        <input type="email" name="mail"placeholder="Your email" class="form-input"/><br />
+        </p>
+        <p>
+        Name*
+        <br/>
+        <input type="Name" name="Name"placeholder="Your name"class="form-input" /><br />
+        </P>
+        <div class="row">
+        <p>
+        Tel:
+        <input type="tel" name="code" id="code" size="4" placeholder="+254" class="form-input"/>
+        <input type="tel" name="phone" id="phone" size="10" placeholder="07********" class="form-input ml-3"/>
+       </p>
+       </div>
+       <p>
+        <div class="row">
+       Preferred Means:
+        <input type="radio" name="contact" id="mobile" />Tel.
+        <input type="radio" name="contact" id="mail" />Email<br />
+        </div>
+        </p>
+        <p>
+        Product*
+        <br/>
+        <select name="Product">
+          <option>Web Development</option>
+          <option>Computer Programming</option>
+          <option>Android app Development</option>
+          <option>Mobile Development</option></select>
+          </p>
+          <p>
+        Message*
+        <br/>
+        <textarea name="message" id="message" rows="5" class="form-input">
+        </textarea>
+        </p>
+        <p>
+        Subscribe to news and offers*<br />
+        <input type="checkbox" name="offers" id="offers" />
+        </p>
+        <p>
+        <input class="btn" type="submit" value="Send Message" />
+        </p>
+      </form>
+      </div>
+      </div>
+    </div>
+      </main>
+      <hr/>
     <!--Footer section-->
     <footer>
       <ul>

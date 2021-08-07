@@ -1,17 +1,16 @@
 body {
-  font-size: 1.2em;
+  font-size: 1.3em;
   background-color: rgb(252, 14, 26);
 }
-
 .container {
   display: flex;
   flex-direction: column;
-  height: 100 vh;
+  height: 100vh;
 }
 .navbar {
   background-color: rgb(119, 45, 45);
-  text-align: center;
   line-height: 3rem;
+  text-align: center;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -25,37 +24,76 @@ body {
   color: green;
   background: brown;
 }
-nav {
-  background-color: rgb(238, 107, 107);
-  line-height: 3em;
-  color: white;
-}
-
-nav a {
-  color: white;
-}
-header {
-  color: white;
-}
-
 a {
   text-decoration: none;
 }
-
+main {
+  flex-grow: 1;
+}
+div {
+  display: block;
+}
+.projects {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  background: hsl(271, 93%, 48%);
+  margin-bottom: 25px;
+  font-size: large;
+  font-weight: 600;
+}
+a {
+  text-align: bottom;
+  background: overlay;
+}
+.col-3 {
+  width: 300px;
+  min-height: 300px;
+  margin-right: 3%;
+  border: #ee0f65 1px solid;
+  margin-bottom: 15px;
+}
+.card__cover {
+  height: 150px;
+  width: 100%;
+}
+.card__content {
+  padding: 5px;
+  flex: 1;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+* {
+  box-sizing: border-box;
+}
 footer {
   background-color: rgb(236, 144, 144);
   text-align: center;
-  color: white;
+  color: rgb(250, 245, 245);
 }
 
 footer ul {
+  background-color: rgb(236, 93, 189);
   list-style-type: none;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 footer ul li {
-  margin-right: 0.8em;
-}
-footer a {
-  color: white;
+  justify-content: center;
+  margin-right: 1.9em;
 }

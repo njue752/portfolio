@@ -15,9 +15,11 @@ Licence:MIT//
     <title>Martin Njue portfolio</title>
   </head>
   <body>
-    <div class="container"></div>
+  <div class="container">
     <!--Navigation bar section-->
     <nav class="navbar">
+      <button id="navbar-icon"><i class="fas fa-bars"></i></button>
+      <div class="navbar-collapse"></div>
       <a href="index.html" class="nav-link">Home</a>
       <a href="./projects.html" class="nav-link">
         <i class="fas fa-tasks"></i>projects</a
@@ -41,23 +43,94 @@ Licence:MIT//
     <hr />
     <hr />
     <!--Jumbotron section-->
-    <header>
+    <header class="jumbotron">
       <img
-        src="images/Hota.jpg"
+        src="images/self.png"
         width="300"
         height="300"
         alt="profile image"
       /><br />
-
+      <div>
       <h1>Hi,i am Martin Njue</h1>
       <p>
         I am martin njue,a dit student at zetech university who is passionate
         about programming using different programming languages such as
         html,css,java and python.
       </p>
+      </div>
     </header>
     <hr />
     <hr />
+    <!--Main section-->
+   <Main>
+    <a href="projects.html">
+    <section class="featured-projects">
+    <h2 class="text-center">featured projects</h2>
+    <div class="cards-container">
+    <div class="card b box-shadow">
+    <P>C++ point of sale system</p>
+    <P>
+    <img
+        src="./images/pos.webp"
+        alt="point of sale system"
+        width="300"
+        height="300"
+      />
+      </p>
+    </div>
+    <div class="card b box-shadow">
+    <p>online furniture shop</P>
+    <P>
+    <img
+        src="./images/web.png"
+        alt="furniture"
+        width="300"
+        height="300"
+      />
+      </p>
+    </div>
+    
+    <div class="card b box-shadow">
+    <p>safaricom page css styling</p>
+    <img
+        src="./images/saf.png"
+        alt="safaricom"
+        width="300"
+        height="300"
+      />
+      </p>
+    
+    </div>
+    </div>
+    </section>
+
+    <section class="testimonials ">
+    <h2 class="text-center">testimonials</h2>
+    <div class="cards-container">
+    <div class="card">
+    <p>Daniel karori</p>
+    <p>web developer</p>
+    <p>0746578783</P>
+    </div>
+    <div class="card">
+    <p>James Njuguna</p>
+    <p>programmer</p>
+    <p>0734765213</p>
+    </div>
+    <div class="card">
+    <p>Nicholas yomon</p>
+    <p>database developer</p>
+    <p>0745674902</p>
+    </div>
+    </div>
+    </section>
+
+    <section class="faqs">
+    <h2 class="text-centered">frequently asked questions</h2>
+    <div class="cards-container">
+    </div>
+    </section>
+    </main>
     <!--Footer section-->
     <footer>
       <ul>

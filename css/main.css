@@ -25,6 +25,13 @@ body {
   color: green;
   background: brown;
 }
+.jumbotron {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
 nav {
   background-color: blue;
   line-height: 3em;
@@ -41,7 +48,30 @@ header {
 a {
   text-decoration: none;
 }
-
+main {
+  flex-grow: 1;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  min-width: 300px;
+  min-height: 300px;
+  margin: 0.5rem;
+  border: 1px solid rgb(153, 109, 42);
+  box-shadow: 0 0 1rem brown;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.b {
+  border: 1px solid rgb(236, 214, 14);
+}
+.box-shadow {
+  box-shadow: 0 0 1rem 0 red;
+}
 footer {
   background-color: rgb(29, 29, 95);
   text-align: center;
@@ -58,4 +88,23 @@ footer ul li {
 }
 footer a {
   color: white;
+}
+.form-control {
+  outline: none;
+  width: 100%;
+  border-color: transparent;
+  min-height: 2rem;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 560px) {
+  .Jumbotron {
+    flex-direction: column;
+  }
+  .navbar-collapse {
+    display: flex;
+  }
+  #navbar-icon {
+    display: inline-block;
+    justify-content: right;
+  }
 }
